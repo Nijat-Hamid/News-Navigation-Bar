@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+.header-top {
+    height: 20px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1d1d1d;
+    padding: 15px;
+    font-size: 14px;
+
+}
+
+.header-top li {
+    list-style: none;
+    display: inline;
+    color: #999;
+    padding: 5px;
+}
+
+.header-top a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+.header-top a:hover {
+    color: #999;
+}
+
+.logo-section {
+    padding-top: 5px;
+    padding-left: 5px;
+    object-fit: contain;
+}
+
+.header-middle {
+    display: flex;
+    justify-content: space-around;
+}
+
+.currency span{
+    margin: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+.currency {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 440px;
+    height: 107px;
+    box-sizing: border-box;
+    background-color: #77777715;
+    margin-top: 10px;
+}
+
+.fa-dollar-sign {
+    color: #3b5998;
+    border-radius: 100%;
+    padding: 10px 17px 10px 17px;
+    border: 1px solid #3b5998;
+}
+
+.fa-dollar-sign:hover{
+    background-color: #3b5998;
+    color: white;
+}
+
+.fa-euro-sign {
+    color: #d34836;
+    padding: 10px 17px 10px 17px;
+    border-radius: 100%;
+    border: 1px solid #d34836;
+}
+
+.fa-euro-sign:hover{
+    background-color: #d34836;
+    color: white;
+}
+
+.fa-ruble-sign {
+    padding: 10px 17px 10px 17px;
+    color: #00aced;
+    border-radius: 100%;
+    border: 1px solid #00aced;
+}
+
+.fa-ruble-sign:hover{
+    background-color: #00aced;
+    color: white;
+}
+
+.fa-turkish-lira-sign {
+    padding: 10px 17px 10px 17px;
+    color: #f60;
+    border-radius: 100%;
+    border: 1px solid #f60;
+}
+.fa-turkish-lira-sign:hover{
+    background-color: #f60;
+    color: white;
+}
+
+.val {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.navigation{
+    background-color: #da0000;
+    margin-top: 5px;
+    box-sizing: border-box;
+    height: 61px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav-link{
+    padding-top: 20px;
+    flex-basis: 72%;
+}
+.navigation a{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.navigation a:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 18px;
+    transition: border 13s linear;
+}
+
+.search{
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}
